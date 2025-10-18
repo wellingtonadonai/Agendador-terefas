@@ -1,6 +1,7 @@
 package br.com.wellington.agendador_tarefas.infraestructure.entity;
 
 import br.com.wellington.agendador_tarefas.infraestructure.enuns.StatusNotificacao;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -11,6 +12,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+
 @Document("tarefa")
 public class TarefasEntity {
 
