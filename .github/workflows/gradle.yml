@@ -3,7 +3,7 @@ name: PR Workflow
 on:
   pull_request:
     branches:
-      - main     # Só roda quando o PR for direcionado à branch main
+      - master     # Só roda quando o PR for direcionado à branch master
     types:
       - opened
       - synchronize
